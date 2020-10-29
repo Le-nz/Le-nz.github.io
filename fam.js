@@ -48,7 +48,9 @@ function leiste() {
         document.getElementById("menu").className = "lei";
     }
 }
-
+document.getElementById('mobile').addEventListener('click', () => {
+    document.getElementById('menu').classList.toggle('klappe');
+})
 // NAVIGATIONBAR HANDY
 
 // function openNav() {
