@@ -60,21 +60,6 @@
     margin: 4cm;
 }
 
-
-
-
-#Drei {
-    content      : '';
-    width        : 0;
-    height       : 0;
-    border-left  : 0 solid transparent;
-    border-right : 98vw solid transparent;
-    border-bottom: 15vh solid #ffffff;
-    bottom       : -38vh;
-    position     : absolute;
-
-}
-
 #sec1 {
     background-color: #ffffff;
 }
@@ -196,6 +181,11 @@ article {
         font-size: 3em;
         color    : white;
         padding  : 1em;
+    }
+
+    #bild1 {
+        display: block;
+        width: 150%;
     }
 }
 
