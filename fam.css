@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * {
     padding        : 0;
@@ -228,4 +229,236 @@ article {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+=======
+
+* {
+    padding        : 0;
+    margin         : 0;
+    box-sizing     : border-box;
+    scroll-behavior: smooth;
+    font-family    : Arial, Helvetica, sans-serif;
+    user-select    : none;
+}
+
+#text1 {
+    position   : absolute;
+    font-size  : 50px;
+    margin-top : 300px;
+    margin-left: 200px;
+    cursor     : context-menu;
+    color      : rgb(255, 255, 255);
+}
+
+
+#but1 {
+    position        : absolute;
+    margin-top      : 430px;
+    margin-left     : 200px;
+    padding         : 0.4cm .8cm;
+    background-color: rgba(0, 0, 0, 0.01);
+    color           : red;
+    border          : 3px solid red;
+    text-transform  : uppercase;
+    cursor          : pointer;
+    letter-spacing  : 4px;
+    border-radius   : 30px;
+}
+
+#arrowdown {
+    position  : absolute;
+    height    : 6%;
+    bottom    : 5%;
+    width     : 100%;
+    text-align: center;
+}
+
+#arrowdown img {
+    transition: transform 0.3s ease-in-out;
+    height    : 100%;
+}
+
+#arrowdown img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#but1:hover {
+    transition-duration: 0.7s;
+    background-color   : rgb(255, 0, 0);
+    color              : black;
+}
+
+
+
+#zwei {
+    margin: 4cm;
+}
+
+#sec1 {
+    background-color: #ffffff;
+}
+
+article {
+    font-family  : sans-serif;
+    border-radius: 100px;
+    border-color : #ffffff;
+    margin       : 200px 60px 5cm 60px;
+    text-align   : justify;
+}
+
+#artbil1 {
+    width : 40vh;
+    float : left;
+    margin: -15vh 40px 20px 0;
+}
+
+#artbil2 {
+    width : 48vh;
+    float : right;
+    margin: 30px 0 22px 40px;
+}
+
+#bild1 {
+    width  : 100%;
+    display: block;
+}
+
+#bild2 {
+    content        : '';
+    display        : block;
+    width          : 100%;
+    height         : 100%;
+    background-size: 2cm 2cm;
+}
+
+#article1üb {
+    font-size  : 2cm;
+    font-family: sans-serif;
+    margin     : 5% 0 0 25%;
+    position   : absolute;
+}
+
+.leist {
+    width           : 100%;
+    height          : 96px;
+    position        : fixed;
+    background-color: rgba(131, 0, 0, 0.788);
+    z-index         : 1;
+    transition      : background-color .4s;
+}
+
+.lei {
+    width           : 100%;
+    height          : 96px;
+    position        : fixed;
+    background-color: rgba(255, 255, 255, 0);
+    transition      : background-color .4s;
+}
+
+#menu li {
+    display    : inline;
+    text-shadow: 0.1em 0.1em 0.5em black;
+}
+
+#menu li a {
+    float          : left;
+    font-family    : fantasy;
+    color          : rgb(255, 255, 255);
+    padding        : 36px;
+    text-transform : uppercase;
+    text-align     : center;
+    text-decoration: none;
+    font-size      : 20px;
+}
+
+#menu li a:hover {
+
+    text-shadow        : 0 0 0;
+    color              : rgb(131, 0, 0);
+    background-color   : rgba(255, 255, 255, 0.664);
+    transition-duration: 0.7s;
+}
+
+#mobile {
+    display: none;
+    z-index: 3;
+}
+
+.klappe {
+    display: block !important;
+}
+#hintergrundbildersatz{
+    display: none;
+}
+
+
+/* @media screen and (max-width: 850px) {
+    #text1 {
+        margin-top : 200px;
+        margin-left: 100px;
+    }
+    
+    
+    
+    #menu li a {
+        display   : block;
+        float     : none;
+        width     : 100%;
+        text-align: center;
+    }
+    
+    #mobile {
+        display  : block;
+        position : fixed;
+        left     : 0;
+        top      : 0;
+        font-size: 3em;
+        color    : white;
+        padding  : 1em;
+    }
+    
+    #bild1 {
+        display: block;
+    width  : 150%;
+} */
+
+/* SIDEBAR-HANDY */
+
+/* .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+    
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+>>>>>>> c4e90e92f7cc8c934a667cbeb20b6fd82741e260
   } */
