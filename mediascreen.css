@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px) {
+    #menu {
+        display: none;
+    }
+
+    #mobile {
+        display  : block;
+        position : fixed;
+        left     : 0;
+        top      : 0;
+        font-size: 3em;
+        color    : white;
+        padding  : 1em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #text1 {
+        margin-top : 200px;
+        margin-left: 100px;
+        margin: center ;
+    }
+
+    #menu li a {
+        display   : block;
+        float     : none;
+        width     : 100%;
+        text-align: center;
+    }
+
+    #bild1 {
+        display: none;
+    } 
+
+    #hintergrundbildersatz {
+        display: block;
+        width: 100%;
+    }
+    #artbil1 {
+        margin: auto 2cm auto 2cm;
+    }
+    #but1 {
+        align-items: center;
+    }
+}
