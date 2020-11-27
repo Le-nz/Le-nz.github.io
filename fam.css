@@ -1,10 +1,11 @@
+
 * {
     padding        : 0;
     margin         : 0;
     box-sizing     : border-box;
     scroll-behavior: smooth;
     font-family    : Arial, Helvetica, sans-serif;
-    user-select: none;
+    user-select    : none;
 }
 
 #text1 {
@@ -75,13 +76,13 @@ article {
 #artbil1 {
     width : 40vh;
     float : left;
-    margin: -15vh 30px 10px 0;
+    margin: -15vh 40px 20px 0;
 }
 
 #artbil2 {
     width : 48vh;
     float : right;
-    margin: 20px 0 12px 30px;
+    margin: 30px 0 22px 40px;
 }
 
 #bild1 {
@@ -153,26 +154,26 @@ article {
 .klappe {
     display: block !important;
 }
+#hintergrundbildersatz{
+    display: none;
+}
 
-@media screen and (max-width: 850px) {
+
+/* @media screen and (max-width: 850px) {
     #text1 {
         margin-top : 200px;
         margin-left: 100px;
     }
-}
-
-@media screen and (max-width: 700px) {
-    #menu {
-        display: none;
-    }
-
-    #menu li a{
+    
+    
+    
+    #menu li a {
         display   : block;
         float     : none;
         width     : 100%;
         text-align: center;
     }
-
+    
     #mobile {
         display  : block;
         position : fixed;
@@ -182,12 +183,11 @@ article {
         color    : white;
         padding  : 1em;
     }
-
+    
     #bild1 {
         display: block;
-        width: 150%;
-    }
-}
+    width  : 150%;
+} */
 
 /* SIDEBAR-HANDY */
 
